@@ -1,7 +1,7 @@
 {
-    "name": "advanced-starter-kit",
+    "name": "shopify-template",
     "version": "1.0.0",
-    "description": "CodeStitch's Advanced Starter Kit. A kit designed for agency's and freelancers who are knowledgable in HTML, CSS, JS and SSGs, who are wanting to delivery any feature a small to medium business would need",
+    "description": "Advanced Starter Kit with Shopify integration. A kit designed for agencies and freelancers who are knowledgeable in HTML, CSS, JS and SSGs, who are wanting to deliver any feature a small to medium business would need",
     "main": "index.js",
     "scripts": {
         "build:eleventy": "cross-env ELEVENTY_ENV=PROD eleventy",
@@ -11,14 +11,10 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/CodeStitchOfficial/Advanced-Starter-Kit.git"
+        "url": "git+https://github.com/Adrielcodes/ShopifyTemplate.git"
     },
-    "author": "CodeStitch",
+    "author": "Adriel",
     "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/CodeStitchOfficial/Advanced-Starter-Kit/issues"
-    },
-    "homepage": "https://github.com/CodeStitchOfficial/Advanced-Starter-Kit#readme",
     "dependencies": {
         "@11ty/eleventy": "^2.0.1",
         "@11ty/eleventy-navigation": "^0.3.5",

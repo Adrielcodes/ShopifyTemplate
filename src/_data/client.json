@@ -1,6 +1,6 @@
 {
-    "name": "Code Stitch Web Designs",
-    "email": "help@codestitch.app",
+    "name": "Your Business Name",
+    "email": "contact@yourbusiness.com",
     "phoneForTel": "555-123-4567",
     "phoneFormatted": "(555) 123-4567",
     "address": {
@@ -17,5 +17,5 @@
         "instagram": "https://www.instagram.com/",
         "youtube": "https://www.youtube.com/"
     },
-    "domain": "https://www.codestitch.app"
+    "domain": "https://yourdomain.com"
 }

@@ -7,7 +7,7 @@
         <div class="cs-top-container">
             <!--Nav Logo-->
             <a href="" class="cs-logo" aria-label="back to home">
-                <img src="https://codestitch-intermediate.netlify.app/assets/svgs/logo-black.svg" alt="logo" width="197" height="43" aria-hidden="true" decoding="async">
+                <span class="cs-logo-text">{{ client.name }}</span>
             </a>
             <div class="cs-contact-group">
                 <a class="cs-contact-link" href="mailto:{{ client.email }}">
@@ -15,20 +15,11 @@
                         <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/yellow-mail.svg" alt="icon" width="24" height="24">
                     </picture>
                     <div class="cs-info">
-                        <span class="cs-header">Found a bug?</span>
+                        <span class="cs-header">Contact Us</span>
                         <span class="cs-link-content">Email us!</span>
                     </div>
                 </a>
-                <a class="cs-contact-link" href="https://www.codestitch.app/" target="_blank">
-                    <picture class="cs-wrapper">
-                        <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/yellow-pin.svg" alt="icon" width="24" height="24">
-                    </picture>
-                    <div class="cs-info">
-                        <span class="cs-header">Want more sections?</span>
-                        <span class="cs-link-content">Visit CodeStitch!</span>
-                    </div>
-                </a>
-                <a href="" class="cs-button-solid">Priority CTA</a>
+                <a href="" class="cs-button-solid">Get Started</a>
             </div>
             <!--Dark Mode toggle, uncomment button code if you want to enable a dark mode toggle-->
             <button id="dark-mode-toggle" aria-label="dark mode toggle">
@@ -89,15 +80,7 @@
                     </ul>
                 </div>
             </nav>
-            <a class="cs-call" href="https://www.reddit.com/r/codestitch" target="_blank">
-                <picture class="cs-wrapper">
-                    <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/adv-kit-reddit.svg" alt="icon" width="24" height="24">
-                </picture>
-                <div class="cs-info">
-                    <span class="cs-header">Need help?</span>
-                    <span class="cs-link-content">Visit our subreddit!</span>
-                </div>
-            </a>
+
         </div>
     </div>
 </header>
